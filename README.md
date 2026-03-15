@@ -1,1 +1,1 @@
-testes di jupyter notebook + github
+astropy testes + primeiro contato

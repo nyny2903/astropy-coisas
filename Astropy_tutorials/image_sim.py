@@ -319,7 +319,7 @@ def sensitivity_variations(image, vignetting=True, dust=True):
         sensitivity *= vign_im
 
     if dust:
-        dust_im = add_donuts(image, number=10)
+        dust_im = add_donuts(image, number=40)
         dust_im = dust_im / dust_im.max()
         sensitivity *= dust_im
 
